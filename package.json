@@ -1,0 +1,23 @@
+{
+  "name": "active_directory",
+  "version": "1.0.0",
+  "description": "Prueba del directorio activo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "deploy": "pm2 start src/app.js --name portalServiceApi && pm2 save "
+  },
+  "keywords": [
+    "activedirectory"
+  ],
+  "author": "jonathan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "validator": "^13.9.0"
+  }
+}
